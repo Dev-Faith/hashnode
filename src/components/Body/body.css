@@ -1,0 +1,23 @@
+.body-header{
+    display: flex;
+    align-items: center;
+   padding: 0 1rem;
+   padding-bottom: 1rem;
+   gap: 7rem;
+}
+
+.body-header-personalised{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-header-featured{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-header-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

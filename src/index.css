@@ -1,0 +1,18 @@
+:root {
+    --primary-color: rgb(70, 68, 255);
+    --section-border: .5px solid rgb(187, 186, 186);
+}
+
+.just{
+    background: rgb(235, 233, 233);
+}
+
+.division{
+    height: 2rem;
+}
+
+
+
+/* .App{
+    background: rgb(212, 208, 208);
+} */

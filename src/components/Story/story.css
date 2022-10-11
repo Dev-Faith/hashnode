@@ -1,0 +1,175 @@
+.story-container{
+    background: #fff;
+    padding: 2rem 1rem;
+    border-bottom: var(--section-border);
+    border-top: var(--section-border);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.story{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.story img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+
+.story-back{
+    background: var(--primary-color);
+     height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.story-back-inactive{
+    position: relative;
+}
+
+.story-back::after{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: .5px;
+    content: "1";
+     height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    background: red;
+    font-size: 0.85rem;
+}
+
+.wahala{
+    background: rgb(234, 148, 19);
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    color: white;
+    position: absolute;
+    top: 1px;
+    left: 29px;
+}
+
+@media screen and (max-width:400px){
+    .story-container{
+        gap: .5rem;
+    }
+.story{
+     height: 60px;
+    width: 60px;
+}
+
+.story img{
+    height: 60px;
+    width: 60px;
+}
+
+.story-back{
+    height: 65px;
+    width: 65px;
+}
+
+.story-back::after{
+    height: 20px;
+    width: 20px;
+    top: 45px;
+    left: 45px;
+    font-size: .8rem;
+}
+
+
+.wahala{
+    top: .5px;
+    left: 35px;
+}
+
+}
+@media screen and (max-width:370px){
+    .story-container{
+        gap: .1rem;
+    }
+.story{
+     height: 30px;
+    width: 30px;
+}
+
+.story img{
+    height: 30px;
+    width: 30px;
+}
+
+.story-back{
+    height: 35px;
+    width: 35px;
+}
+
+.story-back::after{
+    height: 20px;
+    width: 20px;
+    top: 45px;
+    left: 45px;
+    font-size: .8rem;
+}
+
+
+.wahala{
+    top: .5px;
+    left: 35px;
+}
+
+}
+@media screen and (max-width:450px){
+    .story-container{
+        gap: .5rem;
+    }
+.story{
+     height: 60px;
+    width: 60px;
+}
+
+.story img{
+    height: 60px;
+    width: 60px;
+}
+
+.story-back{
+    height: 65px;
+    width: 65px;
+}
+
+.story-back::after{
+    height: 20px;
+    width: 20px;
+    top: 45px;
+    left: 45px;
+    font-size: .8rem;
+}
+
+
+.wahala{
+    top: .5px;
+    left: 35px;
+}
+
+}
+
