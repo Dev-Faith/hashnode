@@ -1,23 +1,45 @@
 .body-header{
     display: flex;
     align-items: center;
-   padding: 0 1rem;
+   justify-content: center;
    padding-bottom: 1rem;
+   padding-top: 1rem;
    gap: 7rem;
+   background: #fff;
+   border-top: var(--section-border);
+   border-bottom: var(--section-border);
 }
+
+
 
 .body-header-personalised{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: .3rem;
 }
 .body-header-featured{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: .3rem;
 }
 .body-header-view{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 450px){
+     .body-header{
+        gap:3rem;
+    }
+}
+@media screen and (max-width: 400px){
+    
+}
+@media screen and (max-width: 376px){
+    .body-header{
+        gap:2.5rem;
+    }
 }
