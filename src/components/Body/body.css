@@ -14,6 +14,10 @@
    border-bottom: var(--section-border);
 }
 
+.active{
+    color: var(--primary-color);
+}
+
 .hoverer{
     color: #fff;
     background: var(--primary-color);
@@ -149,5 +153,8 @@
     .read-time{
         font-size: .95rem;
         font-weight: bold;
+    }
+    .hoverer{
+        bottom: 10rem;
     }
 }

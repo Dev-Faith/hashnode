@@ -13,7 +13,7 @@ const Body = () => {
     <div className="just">
       <div className="body-container">
         <div className="body-header">
-          <div className="body-header-personalised">
+          <div className="body-header-personalised active">
             <VscWand />
             <h3>Personalised</h3>
           </div>
