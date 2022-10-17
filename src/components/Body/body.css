@@ -1,3 +1,7 @@
+.body-container{
+   background-color: #fff;
+}
+
 .body-header{
     display: flex;
     align-items: center;
@@ -10,7 +14,19 @@
    border-bottom: var(--section-border);
 }
 
-
+.hoverer{
+    color: #fff;
+    background: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 1rem;
+}
 
 .body-header-personalised{
     display: flex;
@@ -29,6 +45,77 @@
     justify-content: center;
     align-items: center;
 }
+
+.main-top{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.main-top p{
+    color: grey;
+}
+
+
+.body-content{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.main-top img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.main-top .spec-img img{
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 7px 7px 7px 7px;
+}
+
+.featured-tag{
+    font-size: .85rem;
+    display: flex;
+    gap: .3rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border: 1px solid grey;
+    width: 6.5rem;
+    padding: .3rem;
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+    color: rgb(65, 167, 70);
+    font-weight: bold;
+}
+
+.featured-tag .featured-star{
+    color: rgb(234, 148, 19);
+}
+
+.read-time{
+    display: flex;
+    gap: .3rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.23rem;
+    align-items: center;
+}
+
+.read-time .book{
+    color: var(--primary-color);
+}
+
+.message{
+    color: grey;
+}
+
+
+
+
 
 @media screen and (max-width: 450px){
      .body-header{
