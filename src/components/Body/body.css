@@ -90,10 +90,12 @@
     text-align: center;
     color: rgb(65, 167, 70);
     font-weight: bold;
+    justify-content: center;
 }
 
 .featured-tag .featured-star{
     color: rgb(234, 148, 19);
+    font-size: 1rem;
 }
 
 .read-time{
@@ -128,5 +130,24 @@
 @media screen and (max-width: 376px){
     .body-header{
         gap:2.5rem;
+    }
+
+    .main-top{
+        font-size: .85rem;
+    }
+
+    .featured-tag{
+        font-size: .65rem;
+        padding: .1rem;
+        width: 5.5rem;
+    }
+
+    .message-container .heading{
+        font-size: 1.35rem;
+    }
+
+    .read-time{
+        font-size: .95rem;
+        font-weight: bold;
     }
 }
