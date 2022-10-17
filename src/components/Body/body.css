@@ -21,14 +21,14 @@
 .hoverer{
     color: #fff;
     background: var(--primary-color);
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     border-radius: 50%;
     padding: .1rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     right: 1rem;
 }
 
